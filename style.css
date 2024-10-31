@@ -1,8 +1,8 @@
 /* Altera a cor de fundo dos links de navegação */
 nav a {
   display: inline-block; /* Permite espaçamento e personalização */
-  background-color: #007BFF; /* Cor de fundo azul */
-  color: #FFFFFF; /* Cor do texto branca */
+  background-color: blue; /* Cor de fundo azul */
+  color: white; /* Cor do texto branca */
   padding: 10px 20px;
   border-radius: 5px;
   margin: 0 5px;
@@ -10,7 +10,7 @@ nav a {
 }
 
 nav a:hover {
-  background-color: #0056b3; /* Azul mais escuro no hover */
+  background-color: green; /* Azul mais escuro no hover */
 }
 
 /* Estilo flexbox para centralizar os links em linha */
