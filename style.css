@@ -19,4 +19,12 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin:
+    margin: 0 15px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main
