@@ -1,28 +1,27 @@
-/* Altera a cor de fundo dos links de navegação */
+/* Links com fundo azul e alinhamento */
 nav a {
-  display: inline-block; /* Permite espaçamento e personalização */
-  background-color: blue; /* Cor de fundo azul */
-  color: white; /* Cor do texto branca */
-  padding: 10px 20px;
-  border-radius: 5px;
-  margin: 0 5px;
-  text-decoration: none;
+  display: inline-block !important;
+  background-color: #007BFF !important;
+  color: #FFFFFF !important;
+  padding: 10px 20px !important;
+  border-radius: 5px !important;
+  text-decoration: none !important;
 }
 
 nav a:hover {
-  background-color: green; /* Azul mais escuro no hover */
+  background-color: #0056b3 !important;
 }
 
-/* Estilo flexbox para centralizar os links em linha */
+/* Links em linha */
 nav {
-  display: flex;
-  justify-content: center;
-  gap: 10px;
+  display: flex !important;
+  justify-content: center !important;
+  gap: 10px !important;
 }
 
-/* Estilização do texto da página */
+/* Estilo do texto */
 body {
-  font-family: 'Arial', sans-serif;
-  color: #333333;
-  line-height: 1.6;
+  font-family: 'Arial', sans-serif !important;
+  color: #333333 !important;
+  line-height: 1.6 !important;
 }
