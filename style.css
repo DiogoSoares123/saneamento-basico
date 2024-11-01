@@ -1,67 +1,47 @@
-/* Reset básico */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+/* styles.css */
 
-/* Estilo geral */
+/* Estilo global */
 body {
-    button
-    font-family: Arial, sans-serif;
-    color: #9c0808;
-    background-color: #8f3636;
-    line-height: 1.6;
+    background-color: black; /* Fundo preto */
+    color: white; /* Texto branco para contraste */
+    font-family: Arial, sans-serif; /* Fonte padrão */
+    margin: 0; /* Remove margens padrão */
+    padding: 0; /* Remove preenchimento padrão */
 }
 
-/* Cabeçalho */
-header {
-    background-color: #005f73;
-    color: white;
-    padding: 1rem;
-    text-align: center;
+/* Estilo para cabeçalhos */
+h1, h2, h3, h4, h5, h6 {
+    color: #FFD700; /* Dourado para os cabeçalhos */
 }
 
-header h1 {
-    font-size: 2rem;
+/* Estilo para links */
+a {
+    color: #1E90FF; /* Azul para links */
+    text-decoration: none; /* Remove sublinhado */
 }
 
-/* Navegação */
-nav {
-    background-color: #0a9396;
-    padding: 0.5rem;
-    text-align: center;
+a:hover {
+    text-decoration: underline; /* Sublinha ao passar o mouse */
 }
 
-nav a {
-    color: white;
-    margin: 0 1rem;
-    text-decoration: none;
-    font-weight: bold;
+/* Estilo para botões */
+button {
+    background-color: #1E90FF; /* Azul para botões */
+    color: white; /* Texto branco */
+    border: none; /* Remove borda */
+    padding: 10px 20px; /* Preenchimento interno */
+    border-radius: 5px; /* Bordas arredondadas */
+    cursor: pointer; /* Cursor em forma de mão */
 }
 
-nav a:hover {
-    text-decoration: underline;
+button:hover {
+    background-color: #00BFFF; /* Azul mais claro ao passar o mouse */
 }
 
-/* Seções */
-section {
-    padding: 2rem;
-    margin: 1rem 0;
-    background-color: #e0fbfc;
-    border-radius: 8px;
+/* Estilo para contêineres */
+.container {
+    max-width: 1200px; /* Largura máxima */
+    margin: 0 auto; /* Centraliza o contêiner */
+    padding: 20px; /* Preenchimento interno */
 }
 
-section h2 {
-    color: #005f73;
-    margin-bottom: 1rem;
-}
-
-/* Rodapé */
-footer {
-    background-color: #005f73;
-    color: white;
-    text-align: center;
-    padding: 1rem;
-    margin-top: 2rem;
-}
